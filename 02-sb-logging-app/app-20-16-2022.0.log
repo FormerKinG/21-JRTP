@@ -1,0 +1,18 @@
+2022-08-20 16:16:41.714  INFO 1052 --- [restartedMain] in.arc.DemoApplication                   : Starting DemoApplication using Java 17.0.4 on DESKTOP-MPDDOKM with PID 1052 (F:\Ashok-IT\21-JRTP\JRTP-WORKSPACE\02-sb-logging-app\target\classes started by adi in F:\Ashok-IT\21-JRTP\JRTP-WORKSPACE\02-sb-logging-app)
+2022-08-20 16:16:41.719  INFO 1052 --- [restartedMain] in.arc.DemoApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-08-20 16:16:41.832  INFO 1052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-20 16:16:41.833  INFO 1052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-20 16:16:43.431  INFO 1052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-20 16:16:43.452  INFO 1052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-20 16:16:43.453  INFO 1052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-20 16:16:43.566  INFO 1052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-20 16:16:43.566  INFO 1052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1729 ms
+2022-08-20 16:16:44.082  INFO 1052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-20 16:16:44.157  INFO 1052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-20 16:16:44.172  INFO 1052 --- [restartedMain] in.arc.DemoApplication                   : Started DemoApplication in 3.071 seconds (JVM running for 4.458)
+2022-08-20 16:16:57.986  INFO 1052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-20 16:16:57.987  INFO 1052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-20 16:16:57.988  INFO 1052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-20 16:16:58.039  INFO 1052 --- [http-nio-8080-exec-1] in.arc.rest.LoggingAppController         : inside getMessage Logger App Controller
+2022-08-20 16:16:58.039  INFO 1052 --- [http-nio-8080-exec-1] in.arc.rest.LoggingAppController         : processing msg
+2022-08-20 16:16:58.039  INFO 1052 --- [http-nio-8080-exec-1] in.arc.rest.LoggingAppController         : executed getMessage from Logger App Controller
